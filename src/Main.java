@@ -41,27 +41,24 @@ public class Main {
 
         // Задание 3
         System.out.println("Задание 3");
-        for (int i = 2; i < A.length; i--) {
-            if (i >= 1) {
-                System.out.print(A[i] + ", ");
-            } else if (i == 0) {
-                System.out.print(A[i]);
+        for (int i = A.length - 1; i >= 0; i--) {
+            System.out.print(A[i]);
+            if (i > 0) {
+                System.out.print(", ");
             }
         }
         System.out.println(" ");
-        for (int i = 2; i < B.length; i--) {
-            if (i >= 1) {
-                System.out.print(B[i] + ", ");
-            } else if (i == 0) {
-                System.out.print(B[i]);
+        for (int i = B.length - 1; i >= 0; i--) {
+            System.out.print(B[i]);
+            if (i > 0) {
+                System.out.print(", ");
             }
         }
         System.out.println(" ");
-        for (int i = 2; i < C.length; i--) {
-            if (i >= 1) {
-                System.out.print(C[i] + ", ");
-            } else if (i == 0) {
-                System.out.print(C[i]);
+        for (int i = C.length - 1; i >= 0; i--) {
+            System.out.print(C[i]);
+            if (i > 0) {
+                System.out.print(", ");
             }
         }
         System.out.println(" ");
